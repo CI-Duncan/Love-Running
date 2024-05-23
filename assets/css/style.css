@@ -1,3 +1,4 @@
+/* Google Font Import */
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;&family=Oswald:wght@200..700&display=swap');
 
 /* Font Info 
@@ -77,6 +78,7 @@ body {
     flex-direction: column;
     /* Generic Project Text Styles */
     color: #3a3a3a;
+    font-family: "Lato", sans-serif;
 }
 
 /* Header Styles */
