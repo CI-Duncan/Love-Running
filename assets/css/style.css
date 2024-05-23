@@ -158,10 +158,17 @@ nav {
 
 /* Main Body Styles */
 main {
-    background-color: lightblue;
-    /* Force main element to occupy surplus space */
+        /* Force main element to occupy surplus space */
     flex: 1 0 auto;
     margin-top: 39px;
+    }
+
+/* Hero Section */
+#hero {
+    height: 800px;
+    width: 100%;
+    background: url("../images/hero-image.webp") no-repeat center center/cover;
+
 }
 
 /* Footer Styles */
