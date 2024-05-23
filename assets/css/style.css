@@ -146,6 +146,7 @@ main {
     background-color: lightblue;
     /* Force main element to occupy surplus space */
     flex: 1 0 auto;
+    margin-top: 39px;
 }
 
 /* Footer Styles */
