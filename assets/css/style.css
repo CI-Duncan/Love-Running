@@ -61,6 +61,17 @@
     font-weight: 900;
     font-style: italic;
   }
+
+  // <uniquifier>: Use a unique and descriptive class name
+// <weight>: Use a value from 200 to 700
+
+.oswald-<uniquifier> {
+  font-family: "Oswald", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+
   */
 
 
@@ -84,6 +95,10 @@ body {
 /* Header Styles */
 header {
     background-color: lightcoral;
+}
+
+h1 {
+    font-family: "Oswald", sans-serif;   
 }
 
 /* Main Body Styles */
