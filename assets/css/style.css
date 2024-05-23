@@ -103,10 +103,19 @@ header {
 
 }
 
+header a {
+    text-decoration: none;
+    color: inherit;
+
+}
+
 h1 {
     font-family: "Oswald", sans-serif;
     font-weight: 600;
-    font-style: normal;  
+    font-style: normal;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: #252525;
 }
 
 /* Main Body Styles */
