@@ -188,4 +188,15 @@ footer {
     .nav-toggle-label {
         display: none;
     }
+    #logo {
+        font-size: 280%;
+        line-height: 75px;
+        margin: 0 0 .5rem;
+    }
+
+    /* Main Content */
+    /* Content Push for larget header */
+    main {
+        margin-top: 85px;
+    }
 }
