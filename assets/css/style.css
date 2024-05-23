@@ -286,6 +286,14 @@ main {
         color: #3a3a3a;
     }
 
+/* Media Query large or landscape phones (576px ^) */
+@media screen and (min-width: 576px) {
+    #photos {
+        column-count: 2;
+        column-gap: 0;
+    }
+}
+
 /* Media Query tablets and larger (768px ^) */
 @media screen and (min-width: 768px) {
     /* Header */
@@ -310,7 +318,7 @@ main {
         line-height: 75px;
         margin: 0 0.5rem;
     }
-
+    
     /* Main Content */
     /* Content Push for larger header */
     main {
@@ -339,6 +347,12 @@ main {
         align-self: flex-end;
     }
 
+    /* Gallery Tablet Columns */
+    #photos {
+        column-count: 3;
+        column-gap: 0;
+    }
+
 }
 
 /* Media Query laptops and larger (992px ^) */
@@ -346,7 +360,14 @@ main {
     #menu a:hover {
          border-bottom: 1px solid #3a3a3a;
         }
-    }
+    
+        /* Gallery Laptop+ Columns */
+        #photos {
+            column-count: 4;
+            column-gap: 0;
+        }
+}
+    
 
 /* Media Query Desktops (1200px ^) */
 @media screen and (min-width: 1200px) {
