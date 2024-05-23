@@ -1,0 +1,21 @@
+/* Override Default Browser Settings */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* Header Styles */
+header {
+    background-color: lightcoral;
+}
+
+/* Main Body Styles */
+main {
+    background-color: lightblue;
+}
+
+/* Footer Styles */
+footer {
+    background-color: orange;
+}
