@@ -261,6 +261,17 @@ main {
     color: #fafafa;
 }
 
+/* Gallery Styles Gallery Page*/
+    #photos img {
+        width: 100%;
+        line-height: 2em;
+    }
+
+    #photos {
+        line-height: 0;
+    }
+
+
 /* Footer Styles */
     #social-networks {
         text-align: center;
