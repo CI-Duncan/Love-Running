@@ -247,7 +247,8 @@ main {
     text-align: center;
     /* No wrap on screensless than 400px wide */
     flex-basis: 200px;
-    flex-grow: 1
+    flex-grow: 1;
+    border: 2px solid white;
 }
 
 
