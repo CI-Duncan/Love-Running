@@ -215,6 +215,12 @@ main {
     margin: 5px 0;
 }
 
+/* Circle Background Image */
+#circle-cover-bg
+    height: 700px;
+    width: 100%;
+    background: url("../images/reasons-image.webp") no-repeat center center/cover;
+    position: relative;
 
 /* Footer Styles */
     #social-networks {
@@ -256,7 +262,7 @@ main {
     }
 
     /* Main Content */
-    /* Content Push for larget header */
+    /* Content Push for larger header */
     main {
         margin-top: 85px;
     }
@@ -266,6 +272,10 @@ main {
         width: 300px;
         right: 50px;
     }
+
+    /* Circle Background Image */
+
+
 }
 
 /* Media Query laptops and larger (992px ^) */
