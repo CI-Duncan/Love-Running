@@ -46,7 +46,7 @@
     <!-- Main Content -->
     <main>
         <section id="signup">
-            <form action="https://formdump.codeinstitute.net" method="post" id="sign-upform">
+            <form action="https://formdump.codeinstitute.net" method="post" id="signup-form">
                 <h2><i class="fa-solid fa-heart-pulse"></i>Let's get you signed up!</h2>
                 <label for="first-name">First Name:</label> 
                 <input id="first-name"  class="text-input" type="text" name="first_name" placeholder="First Name" required>
@@ -55,7 +55,7 @@
                 <input id="last-name" class="text-input" type="text" name="last_name" placeholder="Surname" required>
                 <br>
                 <label for="email-address">Email Address:</label>
-                <input type="email" id="email-address" name="email_address" placeholder="Email Address" required>
+                <input type="email" class="text-input" id="email-address" name="email_address" placeholder="Email Address" required>
                 <br>
                 <div id="radio-buttons">
                     <div>
@@ -71,8 +71,9 @@
                         <input type="radio" id="both" name="running_preference" value="both">
                     </div>
                 </div>
-                <button type="submit" id="join-button"><strong>Let's Run!</strong></button> </br>
-                <input type="reset" id="reset-button" value="Reset Form">
+                <button type="submit" class="join-button"><strong>Let's Run!</strong></button>
+                <br>
+                <input type="reset" class="reset-button" value="Reset Form">
                 
             </form>
         </section>
